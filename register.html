@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thiranex - Register</title>
+</head>
+<body>
+    <h2>Create a Secure Account</h2>
+    <p>Your password will be automatically hashed using Bcrypt.</p>
+    
+    <form method="POST">
+        <div>
+            <label>Username:</label><br>
+            <input type="text" name="username" required>
+        </div>
+        <br>
+        <div>
+            <label>Password:</label><br>
+            <input type="password" name="password" required>
+        </div>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+    
+    <p>Already have an account? <a href="/login">Login here</a></p>
+</body>
+</html>
